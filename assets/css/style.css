@@ -423,6 +423,20 @@ section.block.alt{ background: var(--bg-alt); border-top: 1px solid var(--border
 .pub-item .excerpt p + p{ text-indent: 1.4em; }
 .pub-item .excerpt p:last-child{ margin-bottom: 0; }
 
+.pub-item .poem{
+  margin: 0.7rem 0 0;
+  padding: 1.1rem 1.4rem;
+  background: var(--bg-alt);
+  border-left: 2px solid var(--accent);
+  border-radius: 2px;
+  max-width: 58ch;
+  font-family: var(--font-display);
+  color: var(--fg);
+  font-size: 1.02rem;
+  line-height: 1.7;
+  white-space: pre-wrap;
+}
+
 .timeline{ border-left: 1px solid var(--border); padding-left: var(--space-3); }
 .timeline-item{ position: relative; padding-bottom: var(--space-4); }
 .timeline-item:last-child{ padding-bottom: 0; }
